@@ -35,7 +35,7 @@ Depois de seis meses estudando e quebrando a cabeça, em vários momentos desani
 <br>
 Linkedin: https://www.linkedin.com/in/osvaldocjr/<br>
 <br>
-Link do projeto: https://osvaldocjr.github.io/oracle-challenge-codificador/<br>
+Link do projeto: https://github.com/osvaldocjr/oracleChallengeCodificador<br>
 <br>
 ############################################################################<br>
 <br>
@@ -74,4 +74,4 @@ After six months of studying and struggling, often feeling discouraged and doubt
 <br>
 Linkedin: https://www.linkedin.com/in/osvaldocjr/<br>
 <br>
-Project Link: https://osvaldocjr.github.io/oracle-challenge-codificador/
+Project Link: https://github.com/osvaldocjr/oracleChallengeCodificador
