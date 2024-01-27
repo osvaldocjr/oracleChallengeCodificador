@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="white-theme">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="link-alura" href="http://www.alura.com.br/" target="_blank">
+            <img class="logo" src="assets/img/logo alura/Vector@2x.png" alt="Logo Alura">
+        </a>
+        <nav class="nav">
+            <button class="btn-mobile">
+                Menu
+                <span class="hamburger"></span>
+            </button>
+            <ul class="menu">
+                <li><a class="link" href="https://www.linkedin.com/in/osvaldocjr/" target="_blank">
+                        Linkedin
+                        <img class="icon linkedin" src="assets/img/icons/linkedin.png" alt="Linkedin">
+                    </a></li>
+                <li><a class="link" href="https://github.com/osvaldocjr" target="_blank">
+                        Github
+                        <img class="icon github" src="assets/img/icons/github.png" alt="Github">
+                    </a></li>
+                <li><a class="link" href="https://osvaldocjr.github.io/portfolio/" target="_blank">
+                        Portfólio
+                    </a></li>
+                <div class="ajuste">
+                    <span class="tema">Temas:</span>
+                    <div class="temas-redondo">
+                        <li><button class="temas-dark"></button></li>
+                        <li><button class="temas-white"></button></li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="campo-entrada">
+                <textarea class="inserir-texto" name="textoEntrada" placeholder="Digite seu texto aqui." cols="30"
+                    rows="10"></textarea>
+                <div class="regras">
+                    <span class="exclamacao">!</span>
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="buttons">
+                    <button class="criptografar button">Criptografar</button>
+                    <button class="descriptografar button">Descriptografar</button>
+                </div>
+            </section>
+            <section class="campo-mensagem">
+                <div class="texto-espera">
+                    <img class="procurando" src="assets/img/espera/meninaesperando.png" alt="Imagem de Busca">
+                    <div class="mensagem-texto">
+                        <h2 class="esperando-mensagem">Nenhuma mensagem encontrada</h2>
+                        <p class="digite-texto"> Digite um texto que você deseja criptografar ou descriptografar
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <p>Desenvolvido por Osvaldo Coelho Jr.</p>
+        </footer>
+    </main>
+
+    <script src="assets/javascript/header.js"></script>
+    <script src="assets/javascript/criptografia.js"></script>
+    <script src="assets/javascript/temas.js"></script>
+    <script src="assets/javascript/textarea.js"></script>
+
+</body>
+
+</html>
